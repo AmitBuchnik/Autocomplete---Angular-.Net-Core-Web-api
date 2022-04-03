@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "RVwItM/lrmXOCG6T/aUaaumtCippwL4MlaK4d65krp8UY5wCI4BB5MsUh8S/3OqP884HcQsnTvm8SO+LrYSTRw==",
+  "success": true,
+  "projectFilePath": "C:\\Amit\\SailPoint\\server\\WorldCities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JNPQ38\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.21\\microsoft.aspnetcore.jsonpatch.3.1.21.nupkg.sha512",
+    "C:\\Users\\JNPQ38\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.21\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.21.nupkg.sha512",
+    "C:\\Users\\JNPQ38\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\JNPQ38\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\JNPQ38\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\JNPQ38\\.nuget\\packages\\tinycsvparser\\2.6.1\\tinycsvparser.2.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

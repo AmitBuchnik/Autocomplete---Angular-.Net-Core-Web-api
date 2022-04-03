@@ -1,0 +1,20 @@
+  <div class="autocomplete inputcontainer"
+    style="width:300px;">
+    <input id="myInput"
+      [(ngModel)]="selectedOption"
+      type="text"
+      name="myCountry"
+      (paste)="onPaste($event?.target.value)"
+      (input)="onInput($event?.target.value)"
+      (click)="onClick()"
+      placeholder="Country">
+    <div class="icon-container">
+      <i [ngClass]="loading ? 'loader' : ''"></i>
+    </div>
+    <div *ngIf="showPanel"
+      id="myInputautocomplete-list"
+      class="autocomplete-items">
+      <div *ngFor="let option of options"
+        (click)="onSelectOption(option)"><strong>{{ option[optionLabel] ?? option }}</strong></div>
+    </div>
+  </div>

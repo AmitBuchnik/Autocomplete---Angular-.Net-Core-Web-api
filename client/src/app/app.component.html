@@ -1,0 +1,7 @@
+<form autocomplete="off">
+  <autocomplete [options]="cities$ | async"
+    [loading]="loading"
+    (completeMethod)="onFindCity($event)"
+    (select)="onSelectCity($event)">
+  </autocomplete>
+</form>
